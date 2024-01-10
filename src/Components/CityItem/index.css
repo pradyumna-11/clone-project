@@ -1,0 +1,40 @@
+.city-item {
+    list-style-type: none;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    border-width: 1px;
+    border-radius: 7px;
+    border-style: solid;
+    margin: 10px;
+    padding: 0px;
+}
+
+.active {
+    border-color: black;
+}
+
+.city-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.city-item-name {
+    color: #000000;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin-left: 4px;
+}
+
+.city-item-button {
+    width: 100%;
+    border-width: 0px;
+    background-color: transparent;
+    height: 100%;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
